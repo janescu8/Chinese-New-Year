@@ -1,0 +1,151 @@
+*{
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+.FFEDED{
+    background-color: #FFEDED;  
+    margin: auto;
+}
+
+.paragraph{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.lifePlan{
+    width: 22%;  
+    margin: auto;
+}
+
+.lifePlan ul li{
+    text-align: left;
+}
+
+.skillRow{
+    width: 50%;
+    margin: auto;
+}
+
+.skillRow img{
+    width: 25%;
+    float: left;
+    margin: 10px 35px;
+}
+
+.skillRow p{
+    text-align: left;
+}
+
+.ChineseNY{
+    color: #541212;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 80px;
+}
+
+.aboutMe{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 60px;
+}
+
+h1, h3{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 50px;
+    line-height: 1;
+    color: #B3541E;
+}
+h4{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    color: #B3541E;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FFCCD2;
+    border-width: 10px;
+    width: 4%;
+}
+label{
+    font-weight: bold;
+    margin: 5px;
+}
+input[type=text],input[type=email]{
+    font-size: 15px;
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+}
+textarea{
+    font-size: 14px;
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+}
+a:hover{
+    font-weight: bold;
+    background-color: #7c451e;
+    color: white;
+    text-decoration: none;
+}
+a{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid #7c451e;
+    border-radius: 10px;
+    width: 80px;
+    color: #7c451e;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;  
+}
+
+.button{
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    background-color: #7c451e;
+    color: #fcf4ec;
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+footer{
+    background-color: #FFCCD2;
+    padding: 30px 0px 10px;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+footer ul li a{
+    border: none;
+}
+
+footer ul li a:hover{
+    background-color: #FFCCD2;
+    color: #7c451e;
+}
+
+.copyright{
+    color: white;
+    font-size: 25px;
+}
+
+.top{
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+}
+
+
